@@ -35,7 +35,7 @@ const ControlPresupuesto = ({presupuesto, setPresupuesto ,gastos, setGastos, set
     }
 
     const hanldeResetApp = ()=>{
-        const resultado = confirm('¿Deseas reiniciar presupuesto y gastos');
+        const resultado = window.confirm('¿Deseas reiniciar presupuesto y gastos');
 
         if(resultado){
             setPresupuesto(0);
