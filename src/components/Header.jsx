@@ -10,7 +10,7 @@ const Head = ({presupuesto, setPresupuesto, isValidPresupuesto, setIsValidPresup
   //------> DEFINIMOS EL CONTENIDO DEL CONTENEDOR
   return (
     <header>
-        <h1>Planificador de Gastos 2</h1>
+        <h1>Planificador de Gastos</h1>
 
         {/*De acuerdo al estado la validación de presupuesto, muestra un contenido u otro*/}
         {isValidPresupuesto ? (
